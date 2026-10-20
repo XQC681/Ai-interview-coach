@@ -13,7 +13,7 @@ st.set_page_config(
     layout="centered",
 )
 
-DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 
 
 def get_api_key() -> str:
